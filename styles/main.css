@@ -518,7 +518,7 @@ ul {
   vertical-align: top;
   padding: 14px 40px;
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   border: 0;
   cursor: pointer;
   border-radius: 2px;
@@ -528,7 +528,7 @@ ul {
   text-decoration: none;
   font-size: 13px;
   line-height: 1.6;
-  transition: background-color .1s linear;
+  transition: background-color 0.1s linear;
   margin-bottom: 30px;
 }
 
@@ -639,7 +639,7 @@ ul {
 }
 
 .works__content:hover {
-  opacity: .9;
+  opacity: 0.9;
 }
 
 /* ==============  Team  =============  */
@@ -780,7 +780,7 @@ ul {
 }
 
 .reviews__text {
-  font-family: 'Cardo', serif;
+  font-family: "Cardo", serif;
   font-style: italic;
   font-size: 36px;
   line-height: 1.17;
@@ -984,11 +984,9 @@ p {
 }
 
 @media (max-width: 991px) {
-
   /*====== Nav ======*/
   .header__inner {
     position: relative;
-
   }
 
   .nav__list {
@@ -1001,7 +999,7 @@ p {
     top: 240%;
     flex-direction: column;
     background-color: #31344e;
-    opacity: .9;
+    opacity: 0.9;
   }
 
   .nav__list.show {
@@ -1009,39 +1007,31 @@ p {
   }
 
   .nav__link {
-
     padding: 9px 15px 9px;
   }
 
-
-
   /*====== Burger ======*/
-
   .burger {
     display: block;
   }
 
   /*====== Intro ======*/
-
   .intro__title {
     font-size: 40px;
   }
 
   /*====== features ======*/
-
   .features__item {
     width: 50%;
   }
 
   /*====== Team ======*/
-
   .team__item {
     width: 46%;
     margin-bottom: 30px;
   }
 
   /*====== Reviews ======*/
-
   .reviews__inner {
     justify-content: space-between;
   }
@@ -1061,7 +1051,6 @@ p {
 
 @media (max-width: 767px) {
   /*===== intro ======*/
-
   .intro {
     height: auto;
   }
@@ -1076,7 +1065,6 @@ p {
   }
 
   /*====== features ======*/
-
   .features {
     margin-top: 60px;
     margin-bottom: 75px;
@@ -1089,27 +1077,23 @@ p {
   }
 
   /*====== Works ======*/
-
   .works__item {
     width: 100%;
     height: 300px;
   }
 
   /*====== Team ======*/
-
   .team__item {
     width: 100%;
     margin-bottom: 30px;
   }
 
   /*====== Reviews ======*/
-
   .reviews__text {
     font-size: 25px;
   }
 
   /*====== Btn ======*/
-
   .download__content {
     text-align: center;
   }
@@ -1119,7 +1103,6 @@ p {
   }
 
   /*====== Download ======*/
-
   .download__content {
     margin: 50px 0;
   }
@@ -1146,10 +1129,7 @@ p {
 
 @media (max-width: 414px) {
   /*====== Reviews ======*/
-
   .reviews__img {
     right: -100px;
   }
 }
-
-/*# sourceMappingURL=maps/main.css.map */
